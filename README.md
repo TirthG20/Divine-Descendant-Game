@@ -3,7 +3,7 @@
 # Levels
 
 1) Ground Run
-2) UnderGround Worls
+2) UnderGround World
 3) Fire World
 4) Island / Ocean
 5) Sky, Cloud and UFOs
