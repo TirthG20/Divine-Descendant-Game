@@ -18,9 +18,10 @@
 ---
 ## Team
 <a href="https://github.com/Rohit-Solanki-6105/Project1-Game/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Rohit-Solanki-6106/Project1-Game" />
+  <img src="https://contrib.rocks/image?repo=Rohit-Solanki-6105/Project1-Game" />
 </a>
 
-<a href="https://github.com/angular/angular-ja/graphs/contributors">
+<!--<a href="https://github.com/angular/angular-ja/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=angular/angular-ja" />
 </a>
+-->
