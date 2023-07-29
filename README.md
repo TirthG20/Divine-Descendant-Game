@@ -1,4 +1,4 @@
-# Project1-Game
+# Blood-Heir-Game
 
 # Levels
 
