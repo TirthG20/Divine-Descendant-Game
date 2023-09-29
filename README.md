@@ -14,7 +14,3 @@
 10) Hell World
 
 ---
-## Team
-<a href="https://github.com/Rohit-Solanki-6105/Project1-Game/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Rohit-Solanki-6105/Project1-Game" />
-</a>
