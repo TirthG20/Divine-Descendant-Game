@@ -1,4 +1,4 @@
-# Blood-Heir-Game
+# Divine Descendant Game
 
 # Levels
 
