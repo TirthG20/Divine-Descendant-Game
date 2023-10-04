@@ -1,7 +1,7 @@
 
 
 # Divine Descendant Game
-<a href="https://rohit-solanki-6105.github.io/Divine-Descendant-Game/">`Link`</a>
+<a href="https://rohit-solanki-6105.github.io/Divine-Descendant-Game/" target="_blank">`Link`</a>
 # Levels
 
 1) Ground Run
