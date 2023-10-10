@@ -18,3 +18,11 @@
 10) Hell World
 
 ---
+
+### Team
+
+[@ Rohit-Solanki-6105](https://github.com/Rohit-Solanki-6105) <br>
+[@ Learner2829](https://github.com/Learner2829) <br>
+[@ prinyanshi-sain](https://github.com/priyanshi-sain) <br>
+[@ TirthG20](https://github.com/TirthG20) <br>
+[@ JannatNaik](https://github.com/JannatNaik) <br>
