@@ -1,24 +1,54 @@
-<!--
-Rohit H Solanki
--->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Divine Descendant Game</title>
+    <title>Divine Descendant</title>
     <style>
         *{
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
-        main{
+        ::-webkit-scrollbar{
+            width: 0;
+            background-color: transparent;
+        }
+         
+        html{
+            scroll-behavior: smooth;
+        }
+        .bgIMG{
+            position: fixed;
             height: 100vh;
             width: 100%;
             background-size: cover;
+            background-position: fixed;
+            background-attachment: fixed;
             animation: animate 10s infinite linear;
         }
+        main{
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        button{
+            background-color: transparent;
+            color: rgb(255, 160, 160);
+            font-size: xx-large;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 20px;
+            border: none;
+            /* backdrop-filter: blur(20px); */
+            backdrop-filter: invert(100%);
+            box-shadow: 0 0 10px black;
+            /* animation: bluring_button 5s linear infinite; */
+        }
+        
         @keyframes animate {
             0%{
             background-image: url('index_images/s5.jpg');
@@ -40,11 +70,96 @@ Rohit H Solanki
         h1{
             color: rgb(221, 187, 187);
         }
+        section{
+            height: 100vh;
+            width: 100%;
+        }
+        #controls{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            backdrop-filter: invert(100%);
+        }
+        #controls .control button{
+            margin: 0;
+            padding: 10px;
+            /* color: rgb(221, 187, 187); */
+        }
+        #controls .control{
+            font-size: xx-large;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            margin: 5px;
+        }
+        #title{
+            position: absolute;
+            top: 1%;
+            /* width: 100%; */
+            text-align: center;
+            z-index: 100;
+            font-size: 10vh;
+            color: rgb(221, 187, 187);
+            font-weight: bold;
+
+            background-color: transparent;
+            color: transparent;
+            -webkit-text-stroke: 1px rgb(255, 197, 197);
+            font-family: sans;
+        }
     </style>
 </head>
 <body>
-    <main>
-        <h1>Game is Being Developed</h1>
+    
+    <div class="bgIMG"></div>
+    <main id="home">
+        <div id="title">Divine Descendent</div>
+
+        <a href="game/index.html">
+            <button>Start</button>
+        </a>
+        <a href="#controls">
+            <button>
+                Controls
+            </button>
+        </a>
+        <!-- <h1>Game is Being Developed</h1> -->
     </main>
+    <section id="controls">
+        <div class="control">
+            <button>&rightarrow;</button> <span>Run forward</span>
+        </div>
+        
+        <div class="control">
+            <button>&leftarrow;</button> <span>Run backward</span>
+        </div>
+        
+        <div class="control">
+            <button>&uparrow; or space</button> <span>Jump</span>
+        </div>
+        
+        <div class="control">
+            <button>A</button> <span>throw knife</span>
+        </div>
+        
+        <div class="control">
+            <button>X</button> <span>Double Speed</span>
+        </div>
+
+        <div class="control">
+            <button>W</button> <span>PowerUp use</span>
+        </div>
+
+        <div class="control">
+            <button>D</button> <span>Sword Attack</span>
+        </div>
+        
+        <div class="control">
+            <button>P</button> <span>Pause</span>
+        </div>
+
+        <div class="control">
+            <a href="#home"><button>Home</button></a>
+        </div>
+    </section>
 </body>
 </html>
