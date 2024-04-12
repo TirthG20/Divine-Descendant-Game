@@ -1278,7 +1278,7 @@ const levels = {
         enemies: [
              new Enemy(app, 1675, 500, 100, 100, 50, 'e1.png', false, 'side', false),
              new Enemy(app, 2500, 100, 50, 50, 36, 'e1.png', true), // This enemy can jump
-             new Enemy(app, 1000, 500, 100, 100, 20, 'e1.png', true),//nothing
+            //new Enemy(app, 1000, 500, 100, 100, 20, 'e1.png', true),
             // new Enemy(app, 1000, 100, 50, 50, 250, 'e1.png', false, 'side', false),
             // new Enemy(app, 1800, 100, 100, 100, 300, 'e1.png', false, 'side', false),
             // new Enemy(app, 1900, 100, 100, 100, 100, 'e1.png', false, 'side', true)
